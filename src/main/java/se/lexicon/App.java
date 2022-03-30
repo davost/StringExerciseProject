@@ -9,6 +9,7 @@ import static se.lexicon.TrimString.trimmingString;
 import static se.lexicon.ConvertToString.convertToString;
 import static se.lexicon.SubstringArray.placeStringsInArray;
 import static se.lexicon.PrintSubstringArray.printSubstringArray;
+import static se.lexicon.ConvertToCharPrintCharArray.printCharArray;
 
 public class App
 {
@@ -70,6 +71,11 @@ public class App
 
         System.out.println("-----------------");
 
+        //10. Convert the following String: "ThisShouldBeConverted" to a char array.
+        // Iterate through the char array and print out each element.
+        printCharArray();
+
+        System.out.println("-----------------");
 
     }
 }
