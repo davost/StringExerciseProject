@@ -4,6 +4,7 @@ import static se.lexicon.IndexPosition.findChar;
 import static se.lexicon.IndexPositionTwo.findIndex;
 import static se.lexicon.SubstringExercise.findSubstring;
 import static se.lexicon.LowerUpperCase.changeToUpperLowerCase;
+import static se.lexicon.ReplaceStrings.replaceString;
 
 public class App
 {
@@ -33,6 +34,12 @@ public class App
         //4. Convert the following String: "CAPS EQUALS SCREAMING" to lowercase and print.
         //Then convert it back to uppercase and print it out again.
         changeToUpperLowerCase();
+
+        System.out.println("-----------------");
+
+        //5. Correct the following String: "Java is the worst programming language!" by replacing
+        // the (obviously incorrect) word "worst" with the word "best". Then print the sentence.
+        replaceString();
 
         System.out.println("-----------------");
 
