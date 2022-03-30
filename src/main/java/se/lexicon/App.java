@@ -3,6 +3,7 @@ import static se.lexicon.StringLengths.findLength;
 import static se.lexicon.IndexPosition.findChar;
 import static se.lexicon.IndexPositionTwo.findIndex;
 import static se.lexicon.SubstringExercise.findSubstring;
+import static se.lexicon.LowerUpperCase.changeToUpperLowerCase;
 
 public class App
 {
@@ -28,6 +29,13 @@ public class App
         findSubstring();
 
         System.out.println("-----------------");
+
+        //4. Convert the following String: "CAPS EQUALS SCREAMING" to lowercase and print.
+        //Then convert it back to uppercase and print it out again.
+        changeToUpperLowerCase();
+
+        System.out.println("-----------------");
+
 
 
     }
