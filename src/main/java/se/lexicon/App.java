@@ -10,6 +10,7 @@ import static se.lexicon.ConvertToString.convertToString;
 import static se.lexicon.SubstringArray.placeStringsInArray;
 import static se.lexicon.PrintSubstringArray.printSubstringArray;
 import static se.lexicon.ConvertToCharPrintCharArray.printCharArray;
+import static se.lexicon.ConvertCharToString.charToString;
 
 public class App
 {
@@ -76,6 +77,9 @@ public class App
         printCharArray();
 
         System.out.println("-----------------");
+
+        //11.Convert the following char[]: {'J','a','v','a'} to a String and print it out.
+        charToString();
 
     }
 }
