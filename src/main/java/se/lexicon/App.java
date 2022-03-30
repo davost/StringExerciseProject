@@ -6,6 +6,7 @@ import static se.lexicon.SubstringExercise.findSubstring;
 import static se.lexicon.LowerUpperCase.changeToUpperLowerCase;
 import static se.lexicon.ReplaceStrings.replaceString;
 import static se.lexicon.TrimString.trimmingString;
+import static se.lexicon.ConvertToString.convertToString;
 
 public class App
 {
@@ -46,6 +47,12 @@ public class App
 
         //6. What is the output of the following String: "\tJ\ta\tv\ta\t" after you trim it?
         trimmingString();
+
+        System.out.println("-----------------");
+
+        //7. Parse the following int: 20 to a String and add a 20 to the
+        //end of the String. Printing it out should return: "2020".
+        convertToString();
 
         System.out.println("-----------------");
 
