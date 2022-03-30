@@ -8,6 +8,7 @@ import static se.lexicon.ReplaceStrings.replaceString;
 import static se.lexicon.TrimString.trimmingString;
 import static se.lexicon.ConvertToString.convertToString;
 import static se.lexicon.SubstringArray.placeStringsInArray;
+import static se.lexicon.PrintSubstringArray.printSubstringArray;
 
 public class App
 {
@@ -63,9 +64,11 @@ public class App
 
         System.out.println("-----------------");
 
+        //9. Split the following String: "Carl,Susie,Fredrick,Bob,Erik"
+        //into an array. Print out all names separately.
+        printSubstringArray();
 
-
-
+        System.out.println("-----------------");
 
 
     }
