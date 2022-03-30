@@ -9,7 +9,6 @@ public class SubstringArray {
         words[0] = oilWater.substring(0,3);
         words[1] = oilWater.substring(8,13);
 
-        System.out.println(words[0] + " " + words[1]);
 
     }
 }
