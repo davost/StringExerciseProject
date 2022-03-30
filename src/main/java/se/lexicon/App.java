@@ -7,6 +7,7 @@ import static se.lexicon.LowerUpperCase.changeToUpperLowerCase;
 import static se.lexicon.ReplaceStrings.replaceString;
 import static se.lexicon.TrimString.trimmingString;
 import static se.lexicon.ConvertToString.convertToString;
+import static se.lexicon.SubstringArray.placeStringsInArray;
 
 public class App
 {
@@ -55,6 +56,14 @@ public class App
         convertToString();
 
         System.out.println("-----------------");
+
+        //8. Oil and water don't go well together. Given the String: "Oil and Water",
+        // split them up into the words "Oil","Water" and store them in a String array
+        placeStringsInArray();
+
+        System.out.println("-----------------");
+
+
 
 
 
