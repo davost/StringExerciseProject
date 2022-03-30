@@ -2,6 +2,7 @@ package se.lexicon;
 import static se.lexicon.StringLengths.findLength;
 import static se.lexicon.IndexPosition.findChar;
 import static se.lexicon.IndexPositionTwo.findIndex;
+import static se.lexicon.SubstringExercise.findSubstring;
 
 public class App
 {
@@ -22,7 +23,11 @@ public class App
 
         System.out.println("-----------------");
 
-        //
+        //3. Given the following String: "Ok this is not as long!" create a substring
+        // of only "not as long" (excluding the exclamation point) and print it out.
+        findSubstring();
+
+        System.out.println("-----------------");
 
 
     }
