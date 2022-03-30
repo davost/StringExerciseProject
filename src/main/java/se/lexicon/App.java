@@ -9,7 +9,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        //1. What is the length of the String: "Java" ?
+        //1. What is the length of the String: "Java" ??
         findLength();
 
         System.out.println("-----------------");
