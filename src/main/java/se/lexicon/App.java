@@ -5,6 +5,7 @@ import static se.lexicon.IndexPositionTwo.findIndex;
 import static se.lexicon.SubstringExercise.findSubstring;
 import static se.lexicon.LowerUpperCase.changeToUpperLowerCase;
 import static se.lexicon.ReplaceStrings.replaceString;
+import static se.lexicon.TrimString.trimmingString;
 
 public class App
 {
@@ -42,6 +43,12 @@ public class App
         replaceString();
 
         System.out.println("-----------------");
+
+        //6. What is the output of the following String: "\tJ\ta\tv\ta\t" after you trim it?
+        trimmingString();
+
+        System.out.println("-----------------");
+
 
 
 
